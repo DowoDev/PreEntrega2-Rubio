@@ -1,0 +1,106 @@
+.loading-animation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #252525;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  transition: 0.3s all ease-in-out;
+}
+
+.loading-animation h1 {
+  color: #252525;
+  background-color: #ffbb00;
+  border-radius: 24px;
+  margin: 0 15px;
+  padding: 15px 20px;
+  position: fixed;
+  top: 450px;
+  font-size: 64px !important;
+}
+
+.loading-animation span {
+  color: #252525;
+  font-weight: 800;
+}
+.cube-loader {
+  position: relative;
+  width: 75px;
+  height: 75px;
+  transform-style: preserve-3d;
+  transform: rotateX(-30deg);
+  animation: animate 4s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotateX(-30deg) rotateY(0);
+  }
+
+  100% {
+    transform: rotateX(-30deg) rotateY(360deg);
+  }
+}
+
+.cube-loader .cube-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+}
+
+.cube-loader .cube-wrapper .cube-span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: rotateY(calc(90deg * var(--i))) translateZ(37.5px);
+  background: linear-gradient(
+    to bottom,
+    hsl(330, 3.13%, 25.1%) 0%,
+    hsl(44, 21%, 32%) 5.5%,
+    hsl(44, 34.1%, 36.88%) 12.1%,
+    hsl(44, 42.28%, 40.7%) 19.6%,
+    hsl(44, 48.32%, 43.88%) 27.9%,
+    hsl(44, 53.07%, 46.58%) 36.6%,
+    hsl(45, 56.94%, 48.91%) 45.6%,
+    hsl(46, 62.39%, 50.91%) 54.6%,
+    hsl(46, 69.86%, 52.62%) 63.4%,
+    hsl(46, 76.78%, 54.08%) 71.7%,
+    hsl(46, 83.02%, 55.29%) 79.4%,
+    hsl(46, 88.44%, 56.28%) 86.2%,
+    hsl(46, 92.9%, 57.04%) 91.9%,
+    hsl(46, 96.24%, 57.59%) 96.3%,
+    hsl(49, 98.34%, 57.93%) 99%,
+    hsl(49, 99.07%, 58.04%) 100%
+  );
+}
+.cube-wrapper {
+  bottom: 110px;
+}
+.cube-top {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  bottom: 110px; 
+  background: hsl(44, 3.13%, 25.1%) 0%;
+  transform: rotateX(90deg) translateZ(37.5px);
+  transform-style: preserve-3d;
+}
+
+.cube-top::before {
+  content: '';
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background: hsl(44, 42.28%, 40.7%) 19.6%;
+  transform: translateZ(-90px);
+  filter: blur(10px);
+  box-shadow: 0 0 10px #252525,
+              0 0 20px hsl(46, 42.28%, 40.7%) 19.6%,
+              0 0 30px #252525,
+              0 0 40px hsl(46, 42.28%, 40.7%) 19.6%;
+}
