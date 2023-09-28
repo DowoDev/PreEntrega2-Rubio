@@ -10,10 +10,10 @@
 </img>
 
 IMAGENES VARIAS
-<img>![image](https://i.imgur.com/y3DkwRW.png)
+<img>![image](https://i.imgur.com/xK5YO0L.png)
 </img>
 
-<img>![image](https://i.imgur.com/PUrF4qc.png)
+<img>![image](https://i.imgur.com/qVqYYqV.png)
 </img>
 
 <img>![image](https://i.imgur.com/L6iqhRO.png)
@@ -21,13 +21,12 @@ IMAGENES VARIAS
 
 Detalle Card Productos:
 En CATEGORIA
-<img>![image](https://i.imgur.com/xLhWopY.png)
+<img>![image](https://i.imgur.com/X0I6q44.png)
 </img>
 
 INDIVIDUALES
-<img>![image](https://i.imgur.com/xQvs0ti.png)
+<img>![image](https://i.imgur.com/BAgMK14.png)
 </img>
 
-INDIVIDUALES
-<img>![image](https://i.imgur.com/xQvs0ti.png)
+<img>![image](https://i.imgur.com/K8C8tw3.png)
 </img>
