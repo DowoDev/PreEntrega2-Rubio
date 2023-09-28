@@ -2,7 +2,7 @@
 
 27/09/2023
 <h1>Segunda PreEntrega</h1>
-<h2>E-COMMERCE | SHOP - React JS</h2>
+<h2>QINQELA | SHOP - React JS</h2>
 
 <h3>GIF FUNCIONAMIENTO</h3>
 
