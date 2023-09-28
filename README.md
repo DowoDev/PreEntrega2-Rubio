@@ -1,4 +1,4 @@
-# Primer Proyecto con React JS
+# Segundo Proyecto con React JS
 
 27/09/2023
 <h1>Segunda PreEntrega</h1>
